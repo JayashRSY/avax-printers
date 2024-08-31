@@ -1,0 +1,277 @@
+.btn-1 {
+  color: #EEEBDD;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+  background-color: #810000;
+  padding: 0px 50px;
+  height: 50px;
+  border-radius: 10px;
+  text-wrap: nowrap;
+}
+.btn-2 {
+  text-wrap: nowrap;
+  color: #EEEBDD;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: center;
+  background-color: #810000;
+  padding: 0px 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.merlin-bg {
+  background-image: url(../assets/img/avax-bg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px 30px;
+  width: 100%;
+  .merlin-wrapper {
+    position: relative;
+    width: 700px;
+    padding: 50px;
+    background: #1B1717;
+    border-radius: 15px;
+    .header {
+      display: flex;
+      justify-content: space-between;
+
+      img {
+        /* width: 40px; */
+        height: 40px;
+      }
+      button {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: center;
+        color: #EEEBDD;
+        box-sizing: border-box;
+        width: 100px;
+        height: 40px;
+        background: #810000;
+        border: 1px solid #ce1212;
+        border-radius: 5px;
+      }
+    }
+    .heading {
+      display: flex;
+      justify-content: center;
+      .merlin-text-logo {
+        margin-top: 40px;
+        width: 300px;
+      }
+    }
+    .text-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 30px;
+      text-align: justify;
+      color: #ffffff;
+      p {
+        margin: 10px 0px;
+        a {
+          color: #CE1212;
+        }
+      }
+      .italic-text {
+        font-style: italic;
+      }
+    }
+    .reward-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      .reward-box {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        gap: 22px;
+        width: 472px;
+        height: 607.08px;
+        border: 3px solid #eae7af;
+        border-radius: 20px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        .input-wrapper {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          width: 100%;
+          .reward-list {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff4d;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0px;
+          }
+        }
+        .deposit-total {
+          width: 100%;
+          height: 50px;
+          border-radius: 10px;
+          border: 1px solid #ffffff;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          color: #ffffff;
+          padding: 0px 10px;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0.15000000596046448px;
+        }
+        .deposit-btn {
+          width: 100%;
+        }
+        .reward-total {
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          width: 100%;
+          border-top: 1px solid #ffffff4d;
+          padding-top: 20px;
+          .total-text {
+            color: #eae7af;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: left;
+          }
+          .total-btc {
+            color: #eae7af;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: right;
+          }
+        }
+        .btn-wrapper {
+          display: flex;
+          justify-content: space-between;
+          .compound-btn {
+            height: 50px;
+            padding: 0px 30px;
+            background-color: #CE1212;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: center;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            color: #EEEBDD;
+            margin-right: 20px;
+          }
+          .claim-btn {
+            padding: 0px 30px;
+            color: #fae7f3;
+            height: 50px;
+            background-color: #810000;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: center;
+            border-radius: 10px;
+            text-wrap: nowrap;
+            width: 225px;
+          }
+        }
+      }
+      .metrics-box {
+        margin-top: 50px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px;
+        gap: 13px;
+        width: 472px;
+        height: 231px;
+        border: 3px solid #eae7af;
+        border-radius: 20px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        h2 {
+          color: #eae7af;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 32px;
+          letter-spacing: 0.15000000596046448px;
+          text-align: left;
+        }
+        .metrics-wrap {
+          .metric {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: left;
+          }
+        }
+      }
+    }
+    .footer {
+      margin: 50px 0px;
+      display: flex;
+      justify-content: space-around;
+      p {
+        border-bottom: 2px solid #ffffff4d;
+        width: 25%;
+      }
+      span {
+        color: #CE1212;
+        width: 30%;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.15000000596046448px;
+        text-align: justified;
+        margin-bottom: -15px;
+        text-wrap: nowrap;
+      }
+    }
+    .footer-icons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      .icon-wrapper {
+        display: flex;
+        img {
+          margin: 0px 20px;
+        }
+      }
+    }
+  }
+}
